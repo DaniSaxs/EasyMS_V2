@@ -165,6 +165,7 @@ void playFinal(){
     }else if(boton == 0) activate = true;
     
     if(turnOn){
+      minim.stop();
       drumsName = namesDrums[(int)(drumsControl - 1)];
       drumsSound = minim.loadSample("drums/" + drumsName, 512);
       drumsSound.trigger();
@@ -182,6 +183,7 @@ void playFinal(){
     }else if(boton == 0) activate = true;
     
     if(turnOn){
+      minim.stop();
       pianoName = namesPiano[(int)(pianoControl - 1)];
       pianoSound = minim.loadSample("piano/" + pianoName, 512);
       pianoSound.trigger();
@@ -200,6 +202,7 @@ void playFinal(){
     }else if(boton == 0) activate = true;
     
     if(turnOn){
+      minim.stop();
       guitarName = namesGuitar[(int)(guitarControl - 1)];
       guitarSound = minim.loadSample("guitar/" + guitarName, 512);
       guitarSound.trigger();
@@ -217,6 +220,7 @@ void playFinal(){
     }else if(boton == 0) activate = true;
     
     if(turnOn){
+      minim.stop();
       bassName = namesBass[(int)(bassControl - 1)];
       bassSound = minim.loadSample("bass/" + bassName, 512);
       bassSound.trigger();
@@ -234,6 +238,7 @@ void playFinal(){
     }else if(boton == 0) activate = true;
     
     if(turnOn){
+      minim.stop();
       drumsName = namesDrums[(int)(drumsControl - 1)];
       pianoName = namesPiano[(int)(pianoControl - 1)];
       drumsSound = minim.loadSample("drums/" + drumsName, 512);
@@ -254,6 +259,7 @@ void playFinal(){
     }else if(boton == 0) activate = true;
 
     if(turnOn){
+      minim.stop();
       pianoName = namesPiano[(int)(pianoControl - 1)];
       guitarName = namesGuitar[(int)(guitarControl - 1)];
       pianoSound = minim.loadSample("piano/" + pianoName, 512);
@@ -275,6 +281,7 @@ void playFinal(){
       activate = true;
     }
     if(turnOn){
+      minim.stop();
       pianoName = namesPiano[(int)(pianoControl - 1)];
       bassName = namesBass[(int)(bassControl - 1)];
       pianoSound = minim.loadSample("piano/" + pianoName, 512);
@@ -295,6 +302,7 @@ void playFinal(){
     }else if(boton == 0) activate = true;
 
     if(turnOn){
+      minim.stop();
       guitarName = namesGuitar[(int)(guitarControl - 1)];
       bassName = namesBass[(int)(bassControl - 1)];
       guitarSound = minim.loadSample("guitar/" + guitarName, 512);
@@ -315,6 +323,7 @@ void playFinal(){
     }else if(boton == 0) activate = true;
 
     if(turnOn){
+      minim.stop();
       bassName = namesBass[(int)(bassControl - 1)];
       drumsName = namesDrums[(int)(drumsControl - 1)];
       bassSound = minim.loadSample("bass/" + bassName, 512);
@@ -334,6 +343,7 @@ void playFinal(){
     }else if(boton == 0) activate = true;
 
     if(turnOn){
+      minim.stop();
       drumsName = namesDrums[(int)(drumsControl - 1)];
       guitarName = namesGuitar[(int)(guitarControl - 1)];
       drumsSound = minim.loadSample("drums/" + drumsName, 512);
@@ -354,6 +364,7 @@ void playFinal(){
     }else if(boton == 0) activate = true;
 
     if(turnOn){
+      minim.stop();
       pianoName = namesPiano[(int)(pianoControl - 1)];
       pianoSound = minim.loadSample("piano/" + pianoName, 512);
       drumsName = namesDrums[(int)(drumsControl - 1)];
@@ -377,6 +388,7 @@ void playFinal(){
     }else if(boton == 0) activate = true;
       
     if(turnOn){
+      minim.stop();
       pianoName = namesPiano[(int)(pianoControl - 1)];
       pianoSound = minim.loadSample("piano/" + pianoName, 512);
       bassName = namesBass[(int)(bassControl - 1)];
@@ -400,6 +412,7 @@ void playFinal(){
     }else if(boton == 0) activate = true;
 
     if(turnOn){
+      minim.stop();
       drumsName = namesDrums[(int)(drumsControl - 1)];
       drumsSound = minim.loadSample("drums/" + drumsName, 512);
       guitarName = namesGuitar[(int)(guitarControl - 1)];
@@ -423,6 +436,7 @@ void playFinal(){
     }else if(boton == 0) activate = true;
 
     if(turnOn){
+      minim.stop();
       pianoName = namesPiano[(int)(pianoControl - 1)];
       pianoSound = minim.loadSample("piano/" + pianoName, 512);
       drumsName = namesDrums[(int)(drumsControl - 1)];
@@ -446,6 +460,7 @@ void playFinal(){
     }else if(boton == 0) activate = true;
       
     if(turnOn){
+      minim.stop();
       pianoName = namesPiano[(int)(pianoControl - 1)];
       pianoSound = minim.loadSample("piano/" + pianoName, 512);
       drumsName = namesDrums[(int)(drumsControl - 1)];
